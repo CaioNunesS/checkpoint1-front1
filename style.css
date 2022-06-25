@@ -34,7 +34,7 @@ body{
     gap: 12px;
 }
 .cabeçalho h1{ 
-   color: #d7e8e8;
+   color: #ffffff;
    font-size: 40px;
    font-weight: 100;
 
@@ -205,7 +205,7 @@ body{
     object-fit: cover;
    
 }
-.videos h2{
+.videos h1{
     color: #f0ffff;
     padding-bottom: 40px;
 }
@@ -213,7 +213,6 @@ body{
   width: 100%;
   min-width: 300px;
   height: 400px;
-  height: 100%;
   border: 0;
 }
 @media (max-width: 425px) {
@@ -225,19 +224,72 @@ body{
         height: 300px;
 
     }
-    .videos h2{
+    .videos h1{
         margin-top: 110px;
         font-size: small;
         text-align: center;
         padding-top: 40px;
     }
 }
- 
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #d7e8e8;
+    padding-bottom: 30px;
+}
+.main-form div{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.main-form .text{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.main-form input{
+    cursor: pointer;
+    border-radius: 12px;
+}
+.main-form input:invalid{
+    background-color: #ab3838;
+}
+.main-form select{
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.main-form .enviar{
+    width: 100%;
+    background-color: #5cc45c;
+}
+@media (max-width: 425px){
+    .main-form div{
+        display: flex;
+        max-width: 300px;
+        align-items: center;
+    }
+    .main-form .text{
+        padding-bottom: 20px;
+    }
+    .main-form h1{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .main-form p{
+        font-size: 25px;
+    }
+}
 
 footer{
     background-color: #1a2b48;
     display: flex;
-    height: 120px;
+    height: 100px;
     align-items: center;
     justify-content: center;
     gap: 50px;
