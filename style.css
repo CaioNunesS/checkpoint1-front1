@@ -239,6 +239,10 @@ body{
     justify-content: center;
     color: #d7e8e8;
     padding-bottom: 30px;
+    
+}
+.main-form input::placeholder{
+    color: #0b111d;
 }
 .main-form div{
     width: 100%;
@@ -255,7 +259,6 @@ body{
 .main-form input{
     cursor: pointer;
     border-radius: 12px;
-    width: 100%;
 }
 .main-form input:invalid{
     background-color: #ab3838;
