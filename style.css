@@ -255,6 +255,7 @@ body{
 .main-form input{
     cursor: pointer;
     border-radius: 12px;
+    width: 100%;
 }
 .main-form input:invalid{
     background-color: #ab3838;
@@ -271,7 +272,6 @@ body{
 @media (max-width: 425px){
     .main-form div{
         display: flex;
-        max-width: 300px;
         align-items: center;
     }
     .main-form .text{
