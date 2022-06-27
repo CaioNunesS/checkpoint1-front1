@@ -16,7 +16,7 @@ body{
     background-color: #243b62;
 }
 
-.cabeçalho{
+.main-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,25 +29,25 @@ body{
 
 }
    
-.cabeçalho .logo{
+.main-header .logo{
     display: flex;
     gap: 12px;
 }
-.cabeçalho h1{ 
+.main-header h1{ 
    color: #ffffff;
    font-size: 40px;
    font-weight: 100;
 
 }
 
-.cabeçalho img{
+.main-header img{
   
     width: 50px;
     height: 50px;
        
 }
 
-.cabeçalho ul{
+.main-header ul{
     display: flex;
     align-items: center;
     list-style: none;
@@ -55,7 +55,7 @@ body{
     text-decoration: none;
 }
 
-.cabeçalho ul a {
+.main-header ul a {
     text-decoration: none;
     font-size: 20px;
     color: #f0ffff;
@@ -64,14 +64,14 @@ body{
     transition: 0.05s;
     cursor: pointer;
 }
-.cabeçalho ul a:hover{
+.main-header ul a:hover{
 
    opacity: 1;
    
 }
 @media (max-width:425px){
 
-.cabeçalho{
+.main-header{
     flex-direction: column;
     padding: 20px;
     height: fit-content;

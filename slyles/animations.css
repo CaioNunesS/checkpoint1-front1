@@ -1,0 +1,13 @@
+@keyframes header{
+0%{
+    top: -100px;
+
+
+}
+
+}
+.main-header{
+ animation-name: header;
+ animation-duration: 2s;
+
+}
